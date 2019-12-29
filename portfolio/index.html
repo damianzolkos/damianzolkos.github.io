@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PORTFOLIO - DAMIAN ŻÓŁKOŚ</title>
+
+<meta charset="utf-8"/>
+<link rel="shortcut icon" href="{Favicon}"/>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="keywords" content="Damian Żółkoś, Y3llowPL, design, webdeveloper, tumblr, y3llowpl, @damianzolkos, @y3llowpl, Żółkoś, grafika, strony internetowe, strona internetowa, developer, webdesign, portfolio, 42"/>
+<meta name="description" content="Cześć, nazywam się Damian Żółkoś. Jestem webdeveloperem i grafikiem! / Hi, my name is Damian Żółkoś and I am a freelance webdesigner and coder! I make grafics too! / 42."/>
+<meta name="author" content="Damian Żółkoś"/>
+<meta name="google" content="notranslate"/>
+
+<link href='http://fonts.googleapis.com/css?family=Roboto|Oswald&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+<style type="text/css">
+
+iframe {
+	display: none !important;
+}
+/*   MENU   */
+.menu {
+	font-family: 'Roboto', sans-serif;
+	position: fixed;
+	right: 10px;
+	top: 10px;
+	z-index: 100000;
+}
+.menu:hover .more {
+	visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+}
+.more {
+	visibility: hidden;
+	position: absolute;
+	top: -25px;
+	right: 20px;
+	width: 300px;
+	height: auto;
+	opacity: 0;
+    transition: visibility 0s linear 0.1s, opacity 0.1s linear;
+    z-index: 2;
+}
+.more:hover {
+	visibility: visible;
+}
+.more2 {
+	position: relative;
+	background-color: #444; /*   kolor tła   */
+	width: 100%;
+	height: 100%;
+	max-height: 400px;
+	margin-top: 55px;
+	padding: 20px 0px 20px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	border: 10px #fff solid;  /*   kolor i grubość bordera   */
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.avatar {
+	position: relative;
+	width: 70px;
+	height: 70px;
+	margin: 5px auto 0;
+	display: block;
+}
+.more2 ul {
+    margin: 0px;
+    padding: 0px;
+}
+.more2 li {
+    list-style-type: none;
+    display: block;
+    margin: 2px 0px;
+    padding: 8px 0px;
+    font-size: 18px;
+}
+.more2 li:hover {
+	background-color: #b2beb5; /*    kolor hovera pozycji   */
+}
+.more2 li:hover a:link, a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+.more2 ul a:link, a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+.more2 ul a:hover {
+    color: #222;
+    text-decoration: none;
+}
+ /*   /MENU   */
+
+body {
+	background-color: #222;
+	color: #b2beb5;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	padding: 0px;
+	font-family: 'Roboto';
+	font-size: 18px;
+}
+a:link {
+	color: #fff;
+	text-decoration: none;
+}
+a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+#wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+#header {
+	background-color: #ffc300;
+	height: auto;
+	font-family: 'Oswald';
+	color: #111;
+	font-weight: bold;
+	font-size: 150px;
+	text-align: center;
+	padding-top: 20px;
+}
+#portfolio {
+	background-color: #555;
+	height: auto;
+	font-family: 'Oswald';
+	color: #fff;
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+	padding: 5px 0 5px 0;	
+}
+#about {
+	background-color: #333;
+	padding: 80px 0px;
+	text-align: center;
+	line-height: 25px;
+	margin: 0px;
+}
+.hr {
+	position: relative;
+	width: 40%;
+	height: 1px;
+	background: #666;
+	margin: 30px auto;
+}
+
+
+
+h4 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	color: #fff;
+	background: #666;
+	text-shadow: 2px 2px #111;
+	width: 100%-10px;
+	padding: 10px 0px 10px 10px;
+	margin: 0px;
+}
+.box:hover h4 {
+	color: #000;
+	background: #b2beb5;
+	text-shadow: 2px 2px #999;
+	-moz-transition: 0.1s ease-in;
+    -webkit-transition: 0.1s ease-in;
+    -o-transition: 0.1s ease-in;
+    -ms-transition: 0.1s ease-in;
+    transition: 0.1s ease-in;
+}
+.box a:link {
+	color: #fff;
+	text-decoration: none;
+    -moz-transition: 0.1s ease-out;
+    -webkit-transition: 0.1s ease-out;
+    -o-transition: 0.1s ease-out;
+    -ms-transition: 0.1s ease-out;
+    transition: 0.1s ease-out;
+}
+.box a:visited {
+	color: #fff;
+	text-decoration: none;
+    -moz-transition: 0.1s ease-out;
+    -webkit-transition: 0.1s ease-out;
+    -o-transition: 0.1s ease-out;
+    -ms-transition: 0.1s ease-out;
+    transition: 0.1s ease-out;
+}
+.box a:hover {
+	color: #fff;
+	text-decoration: none;
+	-moz-transition: 0.1s ease-in;
+    -webkit-transition: 0.1s ease-in;
+    -o-transition: 0.1s ease-in;
+    -ms-transition: 0.1s ease-in;
+    transition: 0.1s ease-in;
+}
+.wrapper {
+	padding: 0px;
+	margin: 0px 0px 80px;
+}
+.wrapper img {
+	margin: 0px;
+	width: 100%;
+	height: auto;
+}
+.description {
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+#footer {
+	padding-top: 0px;
+	position: relative;
+	text-align: center;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- MENU -->
+<div class="menu">
+	<a href="#"><img id="menuimg" src="http://static.tumblr.com/w01jht6/QS7napdc0/menu.png"></a>
+	<div class="more">
+		<div class="more2">
+			<ul>
+	<a href="http://damianzolkos.tumblr.com" title="DAMIAN ŻÓŁKOŚ"><img src="http://static.tumblr.com/w01jht6/w8co81ujy/logo.png" onmouseover="this.src='http://static.tumblr.com/w01jht6/PNro81uk1/logo2.png'" onmouseout="this.src='http://static.tumblr.com/w01jht6/w8co81ujy/logo.png'"></a>
+	<br><br>
+	<a href="http://damianzolkos.tumblr.com/portfolio" title="Moje portfolio / My portfolio"><li>PORTFOLIO</li></a>
+	<a href="http://limfh.tumblr.com" title="look inside my fucking head"><li>LIMFH.TUMBLR.COM</li></a>
+        	</ul>
+		</div>
+	</div>
+</div>
+<!-- /MENU -->
+
+<div id="wrapper">
+
+<div id="header">DAMIAN ŻÓŁKOŚ</div>
+<div id="portfolio">PORTFOLIO</div>
+
+<div id="about">
+	Cześć, nazywam się Damian Żółkoś. Jestem webdeveloperem i grafikiem.
+	<br>
+	Poniżej są niektóre z moich poprzednich projektów.
+	<br>
+	Możesz napisać do mnie na
+	<a href="http://m.me/damianzolkos">Facebooku</a> albo na
+	<a href="mailto:damianzolkos@gmail.com">maila</a>.
+	<br>
+	Czasem wrzucę też coś na swojego <a href="http://y3llowpl.deviantart.com/">DeviantArt</a>a ;)
+
+<div class="hr"></div>
+
+	Hi, my name is Damian Żółkoś and I'm a freelance webdesigner and coder! I make grafics too!
+	<br>
+	Below you can see some of my works.
+	Feel free to contact me via
+	<a href="http://m.me/damianzolkos">Facebook</a> or
+	<a href="mailto:damianzolkos@gmail.com">mail</a>.
+	<br>
+	Check out my <a href="http://y3llowpl.deviantart.com/">DeviantArt</a> too ;)
+</div>
+
+<br><br><br>
+
+<div class="wrapper">
+		<div class="box">
+			<a href="http://simpletext-theme.tumblr.com">
+				<h4>simpleTEXT - tumblr theme</h4>
+				<img src="http://static.tumblr.com/w01jht6/pVpo81ukh/simpletext.png">
+			</a>
+		</div>
+</div>
+
+<div class="wrapper">
+		<div class="box">
+			<a href="http://damianzolkos.tumblr.com/write">
+				<h4>write</h4>
+				<img src="http://static.tumblr.com/w01jht6/bzxo81uka/write.png">
+			</a>
+		</div>
+</div>
+
+<div class="wrapper">
+		<div class="box">
+			<a href="http://damianzolkos.tumblr.com/themes">
+				<h4>Y3THEMES - my Tumblr themes</h4>
+				<img src="http://static.tumblr.com/w01jht6/GQfo81ul0/y3themes.png">
+			</a>
+		</div>
+</div>
+
+<div class="wrapper">
+		<div class="box">
+			<a href="http://damianzolkos.tumblr.com">
+				<h4>My personal website</h4>
+				<img src="http://static.tumblr.com/w01jht6/lREo81ul1/damianzolkos.png">
+			</a>
+		</div>
+</div>
+
+<div class="wrapper">
+		<div class="box">
+				<h4>simpleGRID - tumblr theme (work in progress)</h4>
+				<img src="http://static.tumblr.com/w01jht6/IWmo81ukj/simplegrid.png">
+		</div>
+</div>
+
+<!-- FOOTER -->
+<div id="footer">
+	<a href="http://damianzolkos.tumblr.com"><img class="avatar" src="http://static.tumblr.com/w01jht6/eGonqeoe7/avatar.png"/></a>
+</div>	
+<!-- /FOOTER -->
+
+</div>
+</body>
+</html>
